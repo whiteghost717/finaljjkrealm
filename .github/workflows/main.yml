@@ -21,11 +21,11 @@ jobs:
 
       - name: Build plugin
         run: |
-          cd PrisonRealm-2.0.0-Source
+          cd PrisonRealm-2.0.0-Fixed
           gradle build
 
       - name: Upload plugin JAR
         uses: actions/upload-artifact@v4
         with:
           name: PrisonRealm-JAR
-          path: PrisonRealm-2.0.0-Source/build/libs/*.jar
+          path: PrisonRealm-2.0.0-Fixed/build/libs/*.jar
