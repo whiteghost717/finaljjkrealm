@@ -1,0 +1,14 @@
+# Prison Realm configuration
+# Set the prison destination in-game in the Nether with: /prisonrealm setprison
+# The plugin saves the selected destination and sealed-player records automatically.
+
+item:
+  name: "&5&lPrison Realm"
+  lore:
+    - "&7A cursed sealing object."
+    - "&dOnly the owner can complete its ritual."
+  custom-model-data: 26001
+  glow: true
+
+# Managed automatically by the plugin. Do not edit while the server is running.
+sealed-players: []
